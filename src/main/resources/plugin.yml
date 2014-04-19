@@ -1,0 +1,107 @@
+name: MoreBows
+version: 2.5.5
+main: me.KiwiLetsPlay.MoreBows.MoreBows
+author: KiwiLetsPlay
+commands:
+     morebows:
+          description: tests the plugin
+          usage: /<command>
+     mblist:
+          description: list the available bows
+          usage: /<command>
+          default: op
+     mbgive:
+          description: gives the player the wanted bow.
+          usage: /<command> <player> <bow>
+          default: op
+     mbreload:
+          description: reloads the plugin.
+          usage: /<command>
+          default: op
+     mbconfig:
+          description: changes the given config-path.
+          usage: /<command> <path> <value>
+          default: op
+permissions:
+   morebows.*:
+     description: Gives access to all morebows things
+     children:
+       morebows.bows.*: true
+       morebows.command: false
+       morebows.artefact.* : true
+       morebows.craft.* : true
+   morebows.command:
+     description: Allows you to use the morebows commands
+     default: true
+   morebows.bows.lightning: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.lightning: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.explosion: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.explosion: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.disappearance: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.disappearance: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.poison: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.poison: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.freeze: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.freeze: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.fireball: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.fireball: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.wither: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.wither: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.squid: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.squid: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.ender: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.ender: 
+     description: allows you to craft this bow
+     default: true
+   morebows.bows.storm: 
+     description: allows you to use this bow
+     default: true
+   morebows.craft.storm: 
+     description: allows you to craft this bow
+     default: true
+   morebows.artefacts.storm: 
+     description: allows you to use this artefact
+     default: true
+   morebows.artefacts.storm.drop: 
+     description: enables drop chance for this player
+     default: true
+   morebows.artefacts.lightning: 
+     description: allows you to use this artefact
+     default: true
+   morebows.artefacts.lightning.craft: 
+     description: allows you to craft this artefact
+     default: true
