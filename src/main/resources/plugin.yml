@@ -32,76 +32,76 @@ permissions:
        morebows.craft.* : true
    morebows.command:
      description: Allows you to use the morebows commands
-     default: true
+     default: false
    morebows.bows.lightning: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.lightning: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.explosion: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.explosion: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.disappearance: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.disappearance: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.poison: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.poison: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.freeze: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.freeze: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.fireball: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.fireball: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.wither: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.wither: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.squid: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.squid: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.ender: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.ender: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.bows.storm: 
      description: allows you to use this bow
-     default: true
+     default: false
    morebows.craft.storm: 
      description: allows you to craft this bow
-     default: true
+     default: false
    morebows.artefacts.storm: 
      description: allows you to use this artefact
-     default: true
+     default: false
    morebows.artefacts.storm.drop: 
      description: enables drop chance for this player
-     default: true
+     default: false
    morebows.artefacts.lightning: 
      description: allows you to use this artefact
-     default: true
+     default: false
    morebows.artefacts.lightning.craft: 
      description: allows you to craft this artefact
-     default: true
+     default: false
